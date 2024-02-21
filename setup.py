@@ -1,6 +1,7 @@
 from distutils.core import setup
 from setuptools import find_packages
 
+# The mjrl probably has to be hand-picked, look at the git history of this repo to see my favorite choice.
 setup(
     name='d4rl',
     version='1.0',
@@ -8,6 +9,6 @@ setup(
                       'numpy', 
                       'mujoco_py', 
                       'h5py', 
-                      'mjrl @ git+git://github.com/aravindr93/mjrl@a38324680e76347bfc5040114017b443060b1e0d'],
+                      'mjrl'],
     packages=find_packages(),
 )
