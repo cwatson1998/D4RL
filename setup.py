@@ -8,6 +8,6 @@ setup(
                       'numpy', 
                       'mujoco_py', 
                       'h5py', 
-                      'mjrl @ git+git://github.com/aravindr93/mjrl@master#egg=mjrl'],
+                      'mjrl @ git+git://github.com/aravindr93/mjrl@a38324680e76347bfc5040114017b443060b1e0d'],
     packages=find_packages(),
 )
